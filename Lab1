@@ -1,0 +1,29 @@
+1- sudo useradd -c "Islam Askar" islam
+    sudo passwd islam
+2- useradd -c "Bad User"
+    sudo passwd baduser
+3- sudo groupadd -g 30000 pgroup
+4- sudo groupadd badgroup
+5- sudo usermod -G pgroup islam
+6-  sudo passwd islam
+   	password
+	password
+7-sudo chage -M 30 islam
+8- sudo usermod -L baduser
+9- sudo userdel -r baduser
+10- sudo groupdel badgroup
+
+16- max for files 666 and for directories 777
+17- directory:600 
+      file: 600
+     delete: 400 
+     change: 300
+     list: 400
+    view: 400
+     modify:700
+19- x for files means being able to execute them, for directories it allows you to enter the directory and access its files
+20- sleep 100 &
+21- pkill -9 sleep
+22- ps -u myid
+23- ps -u !myid
+24- pgrep -u myid
