@@ -1,0 +1,7 @@
+1- zcat
+2- tar xfc archived.tar -/etc/
+3- df -i / : 2763488
+ls -id /etc : 1438977
+ls -I /etc/hosts : 1439140
+5- ln -s /etc/passwd /boot
+6-operation not permitted 
